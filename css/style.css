@@ -1,0 +1,134 @@
+strong {
+  font-weight: 600; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+img {
+  padding: 10px; }
+
+.logo {
+  text-align: left; }
+
+h1 {
+  padding: 20px 0px;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif; }
+
+h1.footer {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; }
+
+h2 {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top: 40px;
+  left: 0px; }
+
+h3 {
+  color: #033048;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px 0px;
+  margin-top: 0; }
+
+p {
+  color: #606161;
+  font-weight: 300;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif; }
+
+ul {
+  padding: 0px 40px; }
+
+ul li {
+  color: #606161;
+  font-weight: 300;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px 80px;
+  max-width: 50%;
+  list-style-position: outside; }
+
+header {
+  height: 60vh;
+  background-image: url(../images/header_bg.jpg);
+  padding: 40px 80px;
+  text-align: center; }
+
+li span {
+  position: relative;
+  left: -80px; }
+
+button {
+  position: relative;
+  top: 80px;
+  left: 0px;
+  padding: 10px 30px;
+  color: #033048;
+  font-weight: 800;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: #f9e42e;
+  border-radius: 5px;
+  border: none; }
+
+main {
+  padding: 40px 80px;
+  height: 40vh;
+  margin-top: 0;
+  background-color: #f0efef;
+  background-style: overflow; }
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  padding-bottom: 40px; }
+
+#signUp {
+  padding: 20px 0px;
+  background-color: #f9e42e;
+  text-align: center; }
+
+#bottom {
+  padding: 10px 30px;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: #033048;
+  position: relative;
+  top: 0px; }
+
+#testimonial {
+  background-image: url(../images/testimonial_bg.jpg); }
+
+#testimonial p {
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 40px 0px;
+  font-size: 18px;
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto; }
+
+#veryBottom p {
+  color: white;
+  background-color: black; }
+
+/*# sourceMappingURL=style.css.map */
