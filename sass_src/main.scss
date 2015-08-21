@@ -36,6 +36,11 @@ $body-bg: transparent;
 	top: $top;
 	left: $left;
 }
+ 
+/* insert media query @560px max-width 
+   take away vh measuremean on below header
+   otherwise pretty responsive as is...??
+*/
 
 strong {
 	font-weight: 600;
@@ -78,15 +83,11 @@ p {
 	@include light($light-grey);
 }
 
-ul {
-	@include padding(0px, 40px); 
-	
-}
 ul li {
-	@include light($light-grey);
-	@include padding(0px, 80px); 
-	max-width: 50%;
+	@include light($light-grey); 
+	max-width: 100%;
 	list-style-position: outside;
+	padding-left: 80px;
 }
 
 header {
@@ -114,10 +115,8 @@ button {
 
 main {
 	@include padding(40px, 80px);
-	height: 40vh;
 	margin-top: 0;
 	background-color: $bg-color;
-	background-style: overflow;
 }
 
 
@@ -156,8 +155,12 @@ footer {
 	margin: 0 auto;
 }
 
-
 #veryBottom p {
 	color: white;
 	background-color: black;
+}
+
+@media screen and (max-width: 560px) {
+	
+
 }

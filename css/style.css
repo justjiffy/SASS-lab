@@ -1,3 +1,7 @@
+/* insert media query @560px max-width 
+   take away vh measuremean on below header
+   otherwise pretty responsive as is...??
+*/
 strong {
   font-weight: 600; }
 
@@ -48,17 +52,14 @@ p {
   font-size: 13px;
   font-family: 'Open Sans', sans-serif; }
 
-ul {
-  padding: 0px 40px; }
-
 ul li {
   color: #606161;
   font-weight: 300;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
-  padding: 0px 80px;
-  max-width: 50%;
-  list-style-position: outside; }
+  max-width: 100%;
+  list-style-position: outside;
+  padding-left: 80px; }
 
 header {
   height: 60vh;
@@ -87,10 +88,8 @@ button {
 
 main {
   padding: 40px 80px;
-  height: 40vh;
   margin-top: 0;
-  background-color: #f0efef;
-  background-style: overflow; }
+  background-color: #f0efef; }
 
 footer {
   width: 100%;
